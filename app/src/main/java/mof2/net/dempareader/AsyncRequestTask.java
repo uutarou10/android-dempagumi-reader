@@ -9,8 +9,8 @@ import java.util.ArrayList;
  */
 
 public class AsyncRequestTask extends AsyncTask<Integer, Integer, ArrayList<Article>> {
-    ArticleListAdapter adapter;
-    ArrayList<Article> articleList;
+    private ArticleListAdapter adapter;
+    private ArrayList<Article> articleList;
 
     public AsyncRequestTask(ArticleListAdapter adapter) {
         this.adapter = adapter;
